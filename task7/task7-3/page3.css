@@ -1,0 +1,139 @@
+body {
+    background-color: #29bde0;
+    margin: 0;
+}
+header {
+    width: 100%;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    height: 50px;
+}
+.house {
+    background: url(images/house.png) no-repeat;
+    background-size: 25px;
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+.text {
+    color: #fff;
+}
+.mark {
+    background: url(images/hao.png) no-repeat;
+    background-size: 25px;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+main {
+    margin-top: 20px;
+}
+.backdrop {
+    text-align: center;
+}
+.picture {
+    display: inline-block;
+    background: url(images/beijing.png) no-repeat;
+    background-size: 150px;
+    height: 90px;
+    width: 150px;
+}
+.gg {
+    display: flex;
+    flex-direction: column;
+}
+.text-2 {
+    color:#ffc865;
+    font-size: 16px;
+    margin: 10px 25px 10px 25px;
+}
+
+.time {
+    color: #fff;
+    font-size: 14px;
+    margin: 5px 25px 0px 25px;
+} 
+.roles {
+    margin: 0px 25px 0px 25px;
+}
+.role {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 35px;
+}
+.sniper {
+    font-size: 14px;
+    color: #fff;
+}
+.doctor {
+    font-size: 14px;
+    color: #fff;
+    margin: 0 21px 0 21px;
+}
+.undercover {
+    font-size: 14px;
+    color: #fff;
+    margin: 0 25px 0 25px;
+}
+.civilian {
+    font-size: 14px;
+    color: #fff;
+    margin: 0 25px 15px 25px;
+}
+.box {
+    background: #fff
+}
+.one {
+    padding-top: 5px;
+    border-bottom: 1px solid grey;
+}
+.two {
+    padding-top: 5px;
+    border-bottom: 1px solid grey;
+}
+.time-one {
+    margin: 0 25px 10px 25px;
+}
+.night {
+    font-size: 14px;
+    color: grey;
+    margin: 0 25px 0 25px;
+}
+.daytime {
+    font-size: 14px;
+    color: grey;
+    margin: 0 25px 15px 25px;
+}
+.time-two {
+    line-height: 45px;
+    margin: 0;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background: #99dff0;
+    background-color:rgba(153,223,240,0.6);
+}
+.red {
+    font-size: 18px;
+    color: #fff;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    background: #f66f6f;
+}
+.orange {
+    font-size: 18px;
+    color: #fff;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    background: #ffc865;
+}
