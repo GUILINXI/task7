@@ -48,18 +48,19 @@ header {
 }
 .versions {
     font-size: 18px;
-    color: grey;
+    color: #9a9a9a;
     line-height: 20px;
 }
 .arrows {
     display: inline-block;
     width:15px;
     height:15px;
-    border-top: 2px solid grey;
-    border-right: 2px solid grey;
+    border-top: 4px solid #f0f0f0;
+    border-right: 4px solid #f0f0f0;
     transform: rotate(45deg);
-    position: relative;
-    left: 20px;
+    position: absolute;
+    right: 35px;
+    top: 75px;
 }
 .bigbox {
     width: 90%;
@@ -96,7 +97,7 @@ header {
 }
 .paragraph {
     font-size: 14px;
-    color: grey;
+    color: #9a9a9a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,11 +149,11 @@ header {
 .dot {
     width: 10px;
     height: 10px;
-    background: #29bde0;
+    background: #f0f0f0;
     border-radius: 50%;
     margin: 5px;   
 }
 main p:hover {
-    background: #fff;
+    background:#29bde0; 
     z-index: 1;
 }
