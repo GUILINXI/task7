@@ -124,8 +124,8 @@ header {
     border-width:15px 0 15px 15px;
     border-style:solid;
     border-color:transparent transparent transparent orange;/*透明 透明 透明 灰*/
-    position:relative;
-    left: 49%;
+    position: absolute;
+    left: 88%;
 }
 .idiot {
     width: 80%;
